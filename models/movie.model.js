@@ -15,4 +15,4 @@ const MovieSchema=new Schema({
     }
 });
 
-module.exports=mongoose.model('Movie',MovieSchema,'movies2024'); // Exportamos el modelo Movie con el esquema MovieSchema
+module.exports=mongoose.model('Movie',MovieSchema,'movies2024'); // Exportamos el modelo Movie con el esquema MovieSchem

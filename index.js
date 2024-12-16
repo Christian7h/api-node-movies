@@ -21,4 +21,4 @@ app.use('/',(req,res)=>{res.send('Api is in /api/movies')});
 // Starting the server
 app.listen(app.get('port'), () => {
     console.log(`Server on port ${app.get('port')}`);
-});
+}); 

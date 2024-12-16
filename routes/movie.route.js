@@ -14,3 +14,4 @@ router.get('/genres',movieCtrl.getGenres); // Ruta para obtener todos los genero
 
 
 module.exports=router; // Exportamos el objeto router
+

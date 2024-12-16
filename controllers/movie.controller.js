@@ -61,4 +61,4 @@ movieCtrl.getGenres=async(req,res)=>{
     .catch((err)=>res.status(404).send(err.message)) // Devolvemos los generos
 }
 
-module.exports=movieCtrl; // Exportamos el objeto movieCtrl
+module.exports=movieCtrl; // Exportamos el objeto movieCtr
